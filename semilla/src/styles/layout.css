@@ -1,0 +1,13 @@
+header.top{position:sticky;top:0;z-index:5;background:var(--surface);border-bottom:1px solid var(--line);display:flex;align-items:center;gap:16px;padding:10px 20px}
+header.top .logo{font-size:19px;color:var(--brand)}
+header.top .logo i{width:22px;height:22px}
+.search{flex:1;max-width:460px}
+.layout{display:grid;grid-template-columns:230px minmax(0,1fr) 290px;gap:24px;max-width:1200px;margin:0 auto;padding:24px 20px}
+aside nav{position:sticky;top:76px;display:flex;flex-direction:column;gap:2px}
+aside nav button{border:0;background:none;text-align:left;padding:9px 12px;border-radius:8px;display:flex;justify-content:space-between;color:var(--muted);font-weight:500}
+aside nav button.on{background:var(--soft);color:var(--ink);font-weight:600}
+aside h4,.panel h3{font-size:13px;color:var(--muted);margin:20px 12px 6px;font-weight:600}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px;margin-bottom:16px}
+.panel h3{margin:0 0 10px;font-size:16px;color:var(--ink)}
+@media(max-width:980px){.layout{grid-template-columns:1fr}aside nav{position:static;flex-direction:row;overflow-x:auto}aside nav button{white-space:nowrap}aside h4{display:none}.right{display:none}#login{grid-template-columns:1fr}.hero{padding:28px;gap:28px}.stack{display:none}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}

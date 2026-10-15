@@ -1,0 +1,9 @@
+.composer{display:flex;gap:12px;align-items:center;margin-bottom:16px}
+.composer button{flex:1;text-align:left;padding:12px 14px;border:1px dashed var(--line);border-radius:8px;background:var(--bg);color:var(--muted)}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
+.doc{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:18px;margin-bottom:12px;display:grid;grid-template-columns:44px 1fr;gap:14px}
+.ext{width:44px;height:52px;border-radius:6px;background:var(--soft);display:grid;place-items:center;font-weight:800;font-size:11px;color:var(--brand);border-bottom:3px solid var(--accent)}
+.doc h3{font-size:18px}
+.doc h3 span{color:var(--muted);font-weight:500}
+.doc p{margin:6px 0 10px;color:var(--muted)}
+.meta{display:flex;gap:16px;flex-wrap:wrap;align-items:center;font-size:13px;color:var(--muted)}

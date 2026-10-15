@@ -1,0 +1,1 @@
+{"name":"semilla","private":true,"type":"module","scripts":{"dev":"npx serve ."}}
