@@ -1,0 +1,7 @@
+export const MOCK_DOCUMENTS=[
+{id:1,t:'Plan de negocio en 2 páginas',a:'Marisol Quispe',c:'Plan de negocio',f:'DOCX',v:'v2.1',d:'Formato simple para ordenar tu idea, clientes, costos y metas del primer año.',dl:1204,st:312,up:'hace 2 días',fav:false},
+{id:2,t:'Control de caja mensual',a:'Rocío Alva',c:'Finanzas',f:'XLSX',v:'v1.4',d:'Hoja con ingresos, gastos y saldo. Incluye fórmulas listas y un gráfico de resumen.',dl:2431,st:540,up:'hace 5 días',fav:false},
+{id:3,t:'Checklist para formalizar tu negocio',a:'Marisol Quispe',c:'Formalización',f:'PDF',v:'v3.0',d:'Pasos para RUC, régimen tributario y licencia municipal. Verifica los requisitos vigentes antes de usarlo.',dl:987,st:201,up:'hace 1 semana',fav:false},
+{id:4,t:'Contrato de servicios',a:'Carla Mena',c:'Legal',f:'DOCX',v:'v3.0',d:'Modelo editable para freelancers y pequeños talleres. Úsalo como base y consúltalo con un abogado.',dl:860,st:174,up:'hace 1 semana',fav:false},
+{id:5,t:'Calendario de contenidos para redes',a:'Carla Mena',c:'Ventas',f:'XLSX',v:'v1.0',d:'Planifica 30 días de publicaciones con ideas, formatos y fechas clave para tu rubro.',dl:1542,st:388,up:'hace 2 semanas',fav:false},
+{id:6,t:'Calculadora de precios y márgenes',a:'Rocío Alva',c:'Finanzas',f:'XLSX',v:'v2.0',d:'Calcula el precio de venta a partir de costos fijos, variables y el margen que quieres ganar.',dl:1876,st:455,up:'hace 3 semanas',fav:false}];
